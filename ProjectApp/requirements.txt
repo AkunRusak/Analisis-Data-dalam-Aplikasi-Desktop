@@ -1,0 +1,21 @@
+# Requirements file untuk Aplikasi Gantt Chart Analysis
+# Install dengan: pip install -r requirements.txt
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+PyQt6>=6.4.0
+
+# PyInstaller untuk build executable
+pyinstaller>=5.0.0
+
+# Optional dependencies untuk fitur tambahan
+openpyxl>=3.0.0          # Untuk membaca file Excel
+xlrd>=2.0.0              # Untuk membaca file Excel lama
+python-dateutil>=2.8.0   # Untuk parsing tanggal yang lebih baik
+
+# Development dependencies (optional)
+# pytest>=7.0.0          # Untuk testing
+# black>=22.0.0          # Code formatter
+# flake8>=4.0.0          # Linter
